@@ -1,6 +1,6 @@
 # belog
 
-FIXME
+A sample blog application I am wrinting with sqlite and clojure 
 
 ## Prerequisites
 
