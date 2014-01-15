@@ -5,7 +5,8 @@
                  [compojure "1.1.6"]
                  [org.clojure/java.jdbc "0.3.0-alpha5"]
                  [org.xerial/sqlite-jdbc "3.7.15-M1"]
-                 [de.ubercode.clostache/clostache "1.3.1"]]
+                 [de.ubercode.clostache/clostache "1.3.1"]
+                 [ring-basic-authentication "1.0.2"]]
   :plugins [[lein-ring "0.8.10"]]
   :ring {:handler belog.handler/app}
   :profiles
